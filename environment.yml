@@ -1,0 +1,19 @@
+name: python_data_science
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - black
+  - flake8
+  - isort
+  - pip
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip:
+    - python-dotenv
+    - -e .
